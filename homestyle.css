@@ -9,7 +9,7 @@ body{
     display: flex;
     height:70px;
     justify-content: space-around;
-    border: 1px solid red;
+    border: 0px solid red;
     background-color: #6f2dce;
     font-weight: 500;
     font-size: 15px;
@@ -33,7 +33,7 @@ body{
 }
 #navbar>div:nth-child(1){
     width:20%;
-    border: 1px solid red;
+    border: 0px solid red;
     padding-left: 70px;
 }
 #navbar>div:nth-child(1) img{
@@ -43,7 +43,7 @@ body{
     width:70%;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
+    border: 0px solid red;
     justify-content: center;
     align-items: center;
     
@@ -52,7 +52,7 @@ body{
 
 #navbar>div:nth-child(2)>div{
     width:12%;
-    border:1px solid red;
+    border:0px solid red;
     text-align: center;
     
 }
@@ -108,7 +108,7 @@ body{
 }
 #navbar>div:nth-child(2)>div:nth-child(8)>div{
     width:50%;
-    border: 1px solid red;
+    border: 0px solid red;
     
 
 }
@@ -159,7 +159,7 @@ body{
 #pg1{
     width:100%;
     margin: auto;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     justify-content: space-around;
     color: #ffffff;
@@ -168,7 +168,7 @@ body{
 }
 #pg1>div{
     width:38%;
-    border:1px solid red
+    border:0px solid red
 }
 #pg1>div>img{
     width:100%
@@ -196,7 +196,7 @@ body{
 }
 #pg11{
     width:80%;
-    border: 1px solid green;
+    border: 0px solid green;
     height: 50px;
     border-radius:15px;
     display: flex;
@@ -224,7 +224,7 @@ body{
 }
 #pg2{
     width:80%;
-    border: 1px solid green;
+    border: 0px solid green;
     margin: auto;
     margin-top: 50px;
     background-color: #ffffff;
@@ -238,7 +238,7 @@ body{
 #pg2bot{
     width:100%;
     margin-top: 40px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 #pg2top>h2{
     font-size: 41px;
@@ -298,7 +298,7 @@ Color:rgba(56, 49, 68, 0.8)
 #pg3{
     width:95%;
     margin:auto;
-    border:1px solid blue;
+    border:0px solid blue;
     margin-top: 50px;
     background-image: url("name.jpg");
     background-size: 80% 100%;
@@ -307,7 +307,7 @@ Color:rgba(56, 49, 68, 0.8)
 }
 #pg3>div{
     width:100%;
-    border: 1px solid black;
+    border: 0px solid black;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -397,13 +397,13 @@ Color:rgba(56, 49, 68, 0.8)
     grid-template-columns: repeat(6,1fr);
     grid-template-rows:repeat(3,auto) ;
     
-    border: 1px solid red;
+    border: 0px solid red;
     
     
 }
 #pg4bot>div{
     width: 50%;
-    border: 1px solid blue;
+    border: 0px solid blue;
     margin-bottom: 50px;
 }
 
@@ -418,7 +418,7 @@ Color:rgba(56, 49, 68, 0.8)
 }
 #h{
     width:40%;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -444,14 +444,14 @@ Color:rgba(56, 49, 68, 0.8)
 #h+div{
     margin: auto;
     width:50%;
-    border: 1px solid red;
+    border: 0px solid red;
     padding: 40px;
     text-align: center;
 }
 #pg5{
     width:80%;
     margin: auto;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top: 70px;
     text-align: center;
     padding: 30px 0px;
@@ -483,7 +483,7 @@ margin-top: 70px;
 gap:20px
 }
 #pg5bot>div{
-border: 1px solid red;
+border: 0px solid red;
 padding: 10px 25px;
 
 border-radius: 12px;
@@ -511,7 +511,7 @@ color: #6f2dce;
 #pg6{
     width:80%;
     margin:auto;
-    border: 1px solid red;
+    border: 0px solid red;
     background-image: url(download.jpg);
     background-repeat: no-repeat;
     background-size: 40% 50%;
@@ -598,6 +598,7 @@ filter:blur(50);
     text-align: center; 
     padding-top: 20px;
     padding-bottom: 50px;
+    
 }
 #pg7>h2{
     font-size: 58px;
@@ -616,7 +617,7 @@ filter:blur(50);
 #pg7top{
     width:30%;
     margin: auto;
-    border: 1px solid green;
+    border: 0px solid green;
     background-color: #ffffff;
     padding:10px 0px;
     border-radius: 12px;
@@ -646,14 +647,14 @@ filter:blur(50);
     width:70%;
     display: flex;
     margin: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     justify-content: space-between;
     padding: 10px 0px;
 }
 #pg7mid>div{
     
     display: flex;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 #pg7mid img{
     width:5%
@@ -691,7 +692,7 @@ filter:blur(50);
 }
 #pg9{
     width:80%;
-    border: 1px solid red;
+    border: 0px solid red;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -699,7 +700,7 @@ filter:blur(50);
 }
 #pg9left{
     width:35%;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 #pg9right{
     width:50%
@@ -762,7 +763,7 @@ filter:blur(50);
     width:40%
 }
 #pg9right{
-    border: 1px solid blue;
+    border: 0px solid blue;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,auto);

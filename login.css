@@ -4,7 +4,7 @@ body{
 
 .t{
     width: 50%;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 70px;
     display: flex;
     margin-left: 70px;
@@ -178,7 +178,7 @@ body{
 }
 .m24>button:hover{
     background-color: #e5e5ee;
-    cursor: pointer;
+    cursor:pointer;
 }
 .m24>button>img{
     margin-right: 20%;

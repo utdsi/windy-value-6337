@@ -4,7 +4,7 @@ body{
 
 .t{
     width: 50%;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 70px;
     display: flex;
     margin-left: 70px;
@@ -72,7 +72,7 @@ body{
     color: #7b7b91;
 }
 .m2{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 45%;
 }
 .m21>p:nth-child(1){
