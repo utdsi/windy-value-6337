@@ -14,9 +14,20 @@ body{
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
+    position: sticky;
+    top:0px;
+    margin-bottom: 0px;
 
    
 }
+#navbar-scrolled{
+    background-color: #ffffff;
+    color: black;
+
+}
+  
+
+
 #navbar a{
     text-decoration: none;
 }
@@ -146,17 +157,17 @@ body{
 }
 
 #pg1{
-    width:80%;
+    width:100%;
     margin: auto;
     border: 1px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #ffffff;
-    margin-top: 50px;
+    padding-top: 70px;
     background-color: #6f2dce;
 }
 #pg1>div{
-    width:47%;
+    width:38%;
     border:1px solid red
 }
 #pg1>div>img{
@@ -198,7 +209,7 @@ body{
     margin-left: 0px;
     opacity: 0.5;
 }
-#pg11>input:nth-child(2){
+#pg11>button{
     border: 0px;
     margin-right: 0px;
     background-color: #001141 ;
@@ -207,7 +218,7 @@ body{
     padding: 0px 50px;
     
 }
-#pg11>input:nth-child(2):hover{
+#pg11>button:hover{
     background-color: #7636d3 ;
     cursor: pointer;
 }

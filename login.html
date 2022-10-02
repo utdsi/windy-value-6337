@@ -11,10 +11,10 @@
 <body>
     <div class="t">
         <div class="t1">
-            <a href=""><img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_logo-f1db7b16e667aab7b9a607429d44d5cc17125da4f36faac751017cdb71ea8ac2.svg"/></a>
+            <a href="./home.html"><img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_logo-f1db7b16e667aab7b9a607429d44d5cc17125da4f36faac751017cdb71ea8ac2.svg"/></a>
         </div>
         <div class="t2">
-            <a href=""><img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_apps/timely_icon-0009454e9497f1cb2a0f9042037156a62c31421032858278d5002aae979084a2.svg"/></a>
+            <a href="./home.html"><img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/memory_apps/timely_icon-0009454e9497f1cb2a0f9042037156a62c31421032858278d5002aae979084a2.svg"/></a>
         </div>
 
     </div>
@@ -42,15 +42,19 @@
         <div class="m2">
             <div class="m21">
                 <p>Log in to Timely</p>
-                <p>Don't have an account?<a href="">Sign up</a></p>
+                <p>Don't have an account?<a href="./signup.html">Sign up</a></p>
             </div>
             <div class="m22">
-                <input type="email" placeholder="Email"/>
-            </div>
-            <div class="m23">
-                <input type="Next" value="Next"/>
+                <form>
+                    <input id="email" type="email" placeholder="Email"/>
+                    <input id="pass" type="password" placeholder="password"/>
+                    
+            
+                <input type="submit" value="Next"/>
                 <br>
                 <a href="">I forgot my password</a>
+                </form>
+                
             </div>
             <div class="m24">
                 <button><img src="https://d1luwo5u9zpc4i.cloudfront.net/assets/google_signin-f3c9ed21a2b2cb641cd72c0c1ab811e3ad589cb0abfe0f4f37dce575492d29de.svg"/>Sign it with Google</button>
@@ -60,5 +64,7 @@
         </div>
     </div>
     <p>Copyright 2022 Memory AS</p>
+    <script src="./login.js"></script>
 </body>
 </html>
+

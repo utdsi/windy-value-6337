@@ -1,18 +1,21 @@
-document.querySelector("#navtop > a").addEventListener("click",navtopfun)
 
-function navtopfun(){
-    window.location.href="./home.html"
-}
-document.querySelector("#log>a").addEventListener("click",loginfun)
 
-function loginfun(){
-    window.location.href="./login.html"
-}
 
-document.getElementById("btn").addEventListener("click",signup1Fun)
+document.querySelector(".btn").addEventListener("click",myFun)
 
-function signup1Fun(){
+function myFun(){
+    
     window.location.href="./signup.html"
 }
+document.querySelector("#aa").addEventListener("click",myFu)
 
+function myFu(){
+    
+    window.location.href="./signup.html"
+}
+document.querySelector("#btn1").addEventListener("click",myF)
 
+function myF(){
+    
+    window.location.href="./signup.html"
+}

@@ -72,8 +72,12 @@ body{
     color: #7b7b91;
 }
 .m2{
-    border: 1px solid red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 45%;
+    
+    border-radius: 15px;
+    
+
 }
 .m21>p:nth-child(1){
     
@@ -101,7 +105,7 @@ body{
     margin-bottom: 50px;
 }
 
-.m22>input{
+.m22>form>input:nth-child(1){
     width: 100%;
     border-radius: 10px;
     border: 1px solid #b9b9cf ;
@@ -112,7 +116,18 @@ body{
     color: #64657e;
     margin-bottom: 10px;
 }
-.m23>input{
+.m22>form>input:nth-child(2){
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #b9b9cf ;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #64657e;
+    margin-bottom: 10px;
+}
+.m22>form>input:nth-child(3){
     width:100%;
     border-radius: 10px;
     border: none;
@@ -124,13 +139,14 @@ body{
     margin-bottom: 10px;
     opacity: 0.9;
     background-color: #dedeee;
+    text-align: center;
 
 }
-.m23{
+.m22{
     text-align: center;
     margin-bottom: 20px;
 }
-.m23>a{
+.m22>form>a{
     text-align: center;
     font-size: 16px;
     font-weight: 500;

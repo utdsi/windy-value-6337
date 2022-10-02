@@ -152,36 +152,21 @@ form>input{
     border: 1px solid orangered;
 }
 
-.m24{
-    text-align: center;
-    width: 100%;
-    
-}
-.m24>p{
+
+.m23>form>p{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     color: #7b7b91;
+    text-align: center;
     
 }
 
-.m24>p>a{
+.m23>form>p>a{
     color: #00c17e;
     text-decoration: none;
 }
-.m24>input{
 
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    color: #7b7b91;
-    width: 100%;
-    padding: 15px 0px;
-    border-radius: 15px;
-    opacity: 0.9;
-    border: none;
-    background-color: #f2f1f2;
-}
 .m+p{
     font-size: 13px;
     font-weight: 400;
